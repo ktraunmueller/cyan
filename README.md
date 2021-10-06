@@ -1,8 +1,8 @@
 # cyan - A Software Rendering 3D Engine
 
-This is a 100% software rendering 3D engine I wrote back in 2002.
+This is a pure software rendering 3D engine I wrote back in 2002.
 
-By 100% software rendering I mean that there's no OpenGL, no hardware acceleration, no nothing. The location and color of every pixel is worked out in software.  Transformation, clipping, lighting, rasterization, all done in software, pixel by pixel, for every frame.
+By pure software rendering I mean that there's no OpenGL, no hardware acceleration, no nothing. The location and color of every pixel is worked out in software.  Transformation, clipping, lighting, rasterization, all done in software, pixel by pixel, for every frame.
 
 The engine was running as a Java 1.1 Applet in a web browser and allowed for realtime 3D in a browser ("Web 3D" was just starting out back then). 
 
