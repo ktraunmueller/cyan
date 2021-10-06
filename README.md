@@ -1,4 +1,4 @@
-# cyan - A Software Rendering 3D Engine
+# cyan - A Software Rendering 3D Engine for the Web
 
 This is a pure software rendering 3D engine I wrote back in 2002.
 
