@@ -11,3 +11,11 @@ Performance was pretty stunning, considering the hardware of the time. I develop
 The code contains implementations of some fundamental computer graphics algorithms, for example a Sutherland-Hodgeman polygon clipper, quaternion-based rotation animation (nowadays you'd probably use [Geometric Algebra](https://bivector.net)), and several flavors of triangle rasterizers (flat-shading, Gouraud-shading, texture-mapping, wireframe). Figuring out how to correctly rasterize triangles without over- or underfill was one of the harder problems. I relied heavily on Chris Hecker's epic series on [perspective texture mapping](https://chrishecker.com/Miscellaneous_Technical_Articles) published in Game Developer Magazine, because you couldn't find a detailed explanation of triangle rasterization in Computer Graphics textbooks (e.g., Foley - van Dam - Feiner - Hughes, Second Edition) back then.
 
 If you want to understand how it all works, I suggest `RenderPipeline.java` as a starting point.
+
+----
+_Edit:_ Unfortunately, the formulas in the PDF's on Chris' Hecker's site are all a bit messed up. Here's the articles as published in Game Developer Magazine:
+- [Perspective Texture Mapping, Part 1: Foundations](https://archive.org/details/GDM_AprMay_1995/page/n7/mode/2up) - GDMag Apr/May 95
+- [Perspective Texture Mapping, Part 2: Rasterization](https://archive.org/details/GDM_JuneJuly_1995/page/n9/mode/2up) - GDMag Jun/Jul 95
+- [Perspective Texture Mapping, Part 3: Endpoints and Mapping](https://archive.org/details/GDM_AugSept_1995/page/n9/mode/2up) - GDMag Aug/Sep 95
+- [Perspective Texture Mapping, Part 4: Approximations](https://archive.org/details/GDM_DecJan_1995/page/n11/mode/2up) - GDMag Dec/Jan 96
+- [Perspective Texture Mapping, Part 5: It's About Time](https://archive.org/details/GDM_AprMay_1996/page/n9/mode/2up) - GDMag Apr/May 96
